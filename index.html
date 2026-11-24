@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WAYFINDER - Travel Tracker</title>
+  <link rel="icon" href="icon.png" type="image">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="container header-box">
+      <a href="#" class="brand">WAYFINDER</a>
+
+      <nav class="nav">
+        <a href="#">Home</a>
+        <a href="#inspiration">Explore</a>
+        <a href="#destinations">Destinations</a>
+        <a href="#why">About</a>
+      </nav>
+
+      <div class="header-actions">
+        <a href="#" class="signin">Sign In</a>
+        <a href="#destinations" class="explore-btn">Explore Now</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="hero">
+      <div class="container hero-box">
+
+        <div class="hero-text">
+          <p class="eyebrow">Travel Tracker</p>
+          <h1>Find Your Next Beautiful Escape.</h1>
+          <p class="hero-desc">Discover quiet beaches, high mountains and busy cities. Plan your trips and keep every journey in one place.</p>
+          <a href="#destinations" class="hero-btn">Explore Destinations</a>
+        </div>
+
+        <div class="hero-image">
+          <img src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=900&h=700&fit=crop" alt="A road winding through green mountains">
+          <div class="info-label">
+            <p class="info-small">Featured Escape</p>
+            <p class="info-title">Mountain Roads &amp; Lakes</p>
+            <p class="info-small">Best for slow travel</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="search-section">
+      <div class="container">
+        <div class="search-panel">
+
+          <div class="field">
+            <label for="destination">Destination</label>
+            <input type="text" id="destination" placeholder="Where to?">
+          </div>
+
+          <div class="field">
+            <label for="checkin">Check-in</label>
+            <input type="date" id="checkin">
+          </div>
+
+          <div class="field">
+            <label for="checkout">Check-out</label>
+            <input type="date" id="checkout">
+          </div>
+
+          <div class="field">
+            <label for="travellers">Travellers</label>
+            <select id="travellers">
+              <option>1 Traveller</option>
+              <option>2 Travellers</option>
+              <option>3 Travellers</option>
+              <option>4 Travellers</option>
+              <option>5+ Travellers</option>
+            </select>
+          </div>
+
+          <button type="button" class="search-btn">Search</button>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="destinations">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Popular Destinations</p>
+          <h2>Places people love to visit</h2>
+        </div>
+
+        <div class="destination-grid">
+
+          <article class="destination-card">
+            <img src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=500&h=400&fit=crop" alt="A temple by the sea in Bali">
+            <div class="destination-info">
+              <h3>Bali</h3>
+              <p class="country">Indonesia</p>
+              <p>Rice terraces, calm temples and beautiful beaches.</p>
+            </div>
+          </article>
+
+          <article class="destination-card">
+            <img src="https://images.unsplash.com/photo-1531366936337-7c912a4589a7?w=500&h=400&fit=crop" alt="Snowy mountains in Switzerland">
+            <div class="destination-info">
+              <h3>Switzerland</h3>
+              <p class="country">Europe</p>
+              <p>Snowy peaks, clear lakes and scenic train rides.</p>
+            </div>
+          </article>
+
+          <article class="destination-card">
+            <img src="https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?w=500&h=400&fit=crop" alt="Mountain valley near Manali">
+            <div class="destination-info">
+              <h3>Manali</h3>
+              <p class="country">India</p>
+              <p>Pine forests, river valleys and cool mountain air.</p>
+            </div>
+          </article>
+
+          <article class="destination-card">
+            <img src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=500&h=400&fit=crop" alt="Dubai skyline with tall buildings">
+            <div class="destination-info">
+              <h3>Dubai</h3>
+              <p class="country">UAE</p>
+              <p>Tall skyscrapers, desert trips and great shopping.</p>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="section beige" id="inspiration">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Travel Inspiration</p>
+          <h2>Choose the kind of trip you want</h2>
+        </div>
+
+        <div class="inspiration-grid">
+
+          <a href="#" class="inspiration-tile">
+            <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=600&h=700&fit=crop" alt="High snowy mountain peak">
+            <div class="tile-text">
+              <h3>Mountain Escapes</h3>
+              <p>Fresh air, hiking trails and quiet views.</p>
+            </div>
+          </a>
+
+          <a href="#" class="inspiration-tile">
+            <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600&h=700&fit=crop" alt="Tropical beach with clear water">
+            <div class="tile-text">
+              <h3>Beach Holidays</h3>
+              <p>Warm sand, blue water and slow evenings.</p>
+            </div>
+          </a>
+
+          <a href="#" class="inspiration-tile">
+            <img src="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=600&h=700&fit=crop" alt="City streets and buildings">
+            <div class="tile-text">
+              <h3>City Adventures</h3>
+              <p>Street food, museums and night lights.</p>
+            </div>
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="why">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Why Travel With Us</p>
+          <h2>Made for people who love to wander</h2>
+        </div>
+
+        <div class="feature-grid">
+
+          <div class="feature">
+            <p class="feature-number">01</p>
+            <h3>Discover new destinations</h3>
+            <p>Find beautiful places you have never heard of and add them to your wish list.</p>
+          </div>
+
+          <div class="feature">
+            <p class="feature-number">02</p>
+            <h3>Plan your journeys</h3>
+            <p>Keep your dates, places and travel ideas organised before you leave home.</p>
+          </div>
+
+          <div class="feature">
+            <p class="feature-number">03</p>
+            <h3>Keep your travel memories organized</h3>
+            <p>Save the places you visited so you can look back on every trip later.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+
+      <div class="footer-brand">
+        <a href="#" class="footer-logo">WAYFINDER</a>
+        <p>Find beautiful places and keep your travel stories together.</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>About</h4>
+        <a href="#">Our Story</a>
+        <a href="#">Careers</a>
+      </div>
+
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <a href="#destinations">Destinations</a>
+        <a href="#inspiration">Inspiration</a>
+      </div>
+
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <p>hello@wayfinder-demo.com</p>
+        <p>Bhopal, Madhya Pradesh</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Follow Us</h4>
+        <a href="#">Instagram</a>
+        <a href="#">Facebook</a>
+        <a href="#">Twitter</a>
+      </div>
+
+    </div>
+
+    <p class="copyright">&copy; 2026 Mo Anas Mev. Educational project for the eSkills-Web Frontend Developer Assignment.</p>
+  </footer>
+
+</body>
+</html>
